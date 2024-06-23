@@ -582,7 +582,7 @@ const Page = () => {
             <div className="font-semibold text-2xl lg:hidden block  text-center lg:my-0 my-7">
               <p>Skills Level</p>
             </div>
-            <div className="flex justify-center items-center min-h-screen w-full md:p-0 p-7">
+            <div className="flex justify-center items-center w-full md:p-0 p-7">
               <div className="flex flex-col justify-center items-center w-96">
                 {skills.map((skill, index) => (
                   <div key={index} className="mb-4 w-full">
